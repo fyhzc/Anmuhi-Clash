@@ -5,70 +5,40 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "[桉木分享]T1-US1 NF", server: ccus1y2t.anmu.one, port: 56262, type: trojan, password: fPPL68qrnA, sni: ccus1y2t.anmu.one, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]T1-US2 NF", server: ccus1y2t.anmu.one, port: 52725, type: trojan, password: rHTJsR2QEf, sni: ccus1y2t.anmu.one, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]T1-US3 NF", server: ccus1y2t.anmu.one, port: 27094, type: trojan, password: jigZOrjulU, sni: ccus1y2t.anmu.one, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]V1-US1 NF", server: ccus1y2t.anmu.one, port: 10730, type: vmess, uuid: 8edb15eb-6a10-4dde-ac2b-adfa68d447e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]V1-US2 NF", server: ccus1y2t.anmu.one, port: 38339, type: vmess, uuid: b7cda7d9-aacb-4b7e-b004-ba7039d72207, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]V1-US3 NF", server: ccus1y2t.anmu.one, port: 15246, type: vmess, uuid: 9b21081b-d9ee-48eb-d06d-aff40b5ceb0d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]T2-US1 NF", server: ccus1y2t2.anmu.one, port: 25414, type: trojan, password: BkgjEmCgVy, sni: ccus1y2t2.anmu.one, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]T2-US2 NF", server: ccus1y2t2.anmu.one, port: 33350, type: trojan, password: jELfAtEgDs, sni: ccus1y2t2.anmu.one, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]T2-US3 NF", server: ccus1y2t2.anmu.one, port: 43831, type: trojan, password: mKYmKNd0G9, sni: ccus1y2t2.anmu.one, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]V2-US1 NF", server: ccus1y2t2.anmu.one, port: 53505, type: vmess, uuid: 261bd011-ea83-442e-bb7e-41ea89369195, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]V2-US2 NF", server: ccus1y2t2.anmu.one, port: 52903, type: vmess, uuid: 46342078-b809-4b57-fb1a-336329e693be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]V2-US3 NF", server: ccus1y2t2.anmu.one, port: 37953, type: vmess, uuid: 99034aec-73d1-4886-dcd7-79e02081acb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
   - {name: "[桉木分享]V3-US1R", server: u3.anmu.one, port: 27092, type: vmess, uuid: ce019197-4b04-448c-d3e0-feb1a116d1fa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
   - {name: "[桉木分享]V3-US2R", server: u3.anmu.one, port: 14462, type: vmess, uuid: 1f3419a0-d19a-408e-9424-92b8037aa616, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
   - {name: "[桉木分享]V3-US3R", server: u3.anmu.one, port: 33972, type: vmess, uuid: 16b938c4-1db3-494c-e5c0-c4b56b3e0394, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
   - {name: "[桉木分享]T3-US1R", server: u3.anmu.one, port: 22819, type: trojan, password: 1WSP7G6vyi, sni: u3.anmu.one, skip-cert-verify: false, udp: true}
   - {name: "[桉木分享]T3-US2R", server: u3.anmu.one, port: 55584, type: trojan, password: 6oehPaqLw9, sni: u3.anmu.one, skip-cert-verify: false, udp: true}
   - {name: "[桉木分享]T3-US3R", server: u3.anmu.one, port: 33817, type: trojan, password: XcxlM5xYgJ, sni: u3.anmu.one, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]-临时-US", server: u4.anmu.one, port: 20216, type: vmess, uuid: 5d5dc242-2be9-4ebd-9563-476bbe181e41, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]-临时-US1", server: u4.anmu.one, port: 50123, type: vmess, uuid: 66860e8e-c314-4a2e-a4f4-137a272f0928, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - 🎯 全球直连
-      - "[桉木分享]T1-US1 NF"
-      - "[桉木分享]T1-US2 NF"
-      - "[桉木分享]T1-US3 NF"
-      - "[桉木分享]V1-US1 NF"
-      - "[桉木分享]V1-US2 NF"
-      - "[桉木分享]V1-US3 NF"
-      - "[桉木分享]T2-US1 NF"
-      - "[桉木分享]T2-US2 NF"
-      - "[桉木分享]T2-US3 NF"
-      - "[桉木分享]V2-US1 NF"
-      - "[桉木分享]V2-US2 NF"
-      - "[桉木分享]V2-US3 NF"
       - "[桉木分享]V3-US1R"
       - "[桉木分享]V3-US2R"
       - "[桉木分享]V3-US3R"
       - "[桉木分享]T3-US1R"
       - "[桉木分享]T3-US2R"
       - "[桉木分享]T3-US3R"
+      - "[桉木分享]-临时-US"
+      - "[桉木分享]-临时-US1"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "[桉木分享]T1-US1 NF"
-      - "[桉木分享]T1-US2 NF"
-      - "[桉木分享]T1-US3 NF"
-      - "[桉木分享]V1-US1 NF"
-      - "[桉木分享]V1-US2 NF"
-      - "[桉木分享]V1-US3 NF"
-      - "[桉木分享]T2-US1 NF"
-      - "[桉木分享]T2-US2 NF"
-      - "[桉木分享]T2-US3 NF"
-      - "[桉木分享]V2-US1 NF"
-      - "[桉木分享]V2-US2 NF"
-      - "[桉木分享]V2-US3 NF"
       - "[桉木分享]V3-US1R"
       - "[桉木分享]V3-US2R"
       - "[桉木分享]V3-US3R"
       - "[桉木分享]T3-US1R"
       - "[桉木分享]T3-US2R"
       - "[桉木分享]T3-US3R"
+      - "[桉木分享]-临时-US"
+      - "[桉木分享]-临时-US1"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -86,24 +56,14 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "[桉木分享]T1-US1 NF"
-      - "[桉木分享]T1-US2 NF"
-      - "[桉木分享]T1-US3 NF"
-      - "[桉木分享]V1-US1 NF"
-      - "[桉木分享]V1-US2 NF"
-      - "[桉木分享]V1-US3 NF"
-      - "[桉木分享]T2-US1 NF"
-      - "[桉木分享]T2-US2 NF"
-      - "[桉木分享]T2-US3 NF"
-      - "[桉木分享]V2-US1 NF"
-      - "[桉木分享]V2-US2 NF"
-      - "[桉木分享]V2-US3 NF"
       - "[桉木分享]V3-US1R"
       - "[桉木分享]V3-US2R"
       - "[桉木分享]V3-US3R"
       - "[桉木分享]T3-US1R"
       - "[桉木分享]T3-US2R"
       - "[桉木分享]T3-US3R"
+      - "[桉木分享]-临时-US"
+      - "[桉木分享]-临时-US1"
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -114,70 +74,40 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "[桉木分享]T1-US1 NF"
-      - "[桉木分享]T1-US2 NF"
-      - "[桉木分享]T1-US3 NF"
-      - "[桉木分享]V1-US1 NF"
-      - "[桉木分享]V1-US2 NF"
-      - "[桉木分享]V1-US3 NF"
-      - "[桉木分享]T2-US1 NF"
-      - "[桉木分享]T2-US2 NF"
-      - "[桉木分享]T2-US3 NF"
-      - "[桉木分享]V2-US1 NF"
-      - "[桉木分享]V2-US2 NF"
-      - "[桉木分享]V2-US3 NF"
       - "[桉木分享]V3-US1R"
       - "[桉木分享]V3-US2R"
       - "[桉木分享]V3-US3R"
       - "[桉木分享]T3-US1R"
       - "[桉木分享]T3-US2R"
       - "[桉木分享]T3-US3R"
+      - "[桉木分享]-临时-US"
+      - "[桉木分享]-临时-US1"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "[桉木分享]T1-US1 NF"
-      - "[桉木分享]T1-US2 NF"
-      - "[桉木分享]T1-US3 NF"
-      - "[桉木分享]V1-US1 NF"
-      - "[桉木分享]V1-US2 NF"
-      - "[桉木分享]V1-US3 NF"
-      - "[桉木分享]T2-US1 NF"
-      - "[桉木分享]T2-US2 NF"
-      - "[桉木分享]T2-US3 NF"
-      - "[桉木分享]V2-US1 NF"
-      - "[桉木分享]V2-US2 NF"
-      - "[桉木分享]V2-US3 NF"
       - "[桉木分享]V3-US1R"
       - "[桉木分享]V3-US2R"
       - "[桉木分享]V3-US3R"
       - "[桉木分享]T3-US1R"
       - "[桉木分享]T3-US2R"
       - "[桉木分享]T3-US3R"
+      - "[桉木分享]-临时-US"
+      - "[桉木分享]-临时-US1"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "[桉木分享]T1-US1 NF"
-      - "[桉木分享]T1-US2 NF"
-      - "[桉木分享]T1-US3 NF"
-      - "[桉木分享]V1-US1 NF"
-      - "[桉木分享]V1-US2 NF"
-      - "[桉木分享]V1-US3 NF"
-      - "[桉木分享]T2-US1 NF"
-      - "[桉木分享]T2-US2 NF"
-      - "[桉木分享]T2-US3 NF"
-      - "[桉木分享]V2-US1 NF"
-      - "[桉木分享]V2-US2 NF"
-      - "[桉木分享]V2-US3 NF"
       - "[桉木分享]V3-US1R"
       - "[桉木分享]V3-US2R"
       - "[桉木分享]V3-US3R"
       - "[桉木分享]T3-US1R"
       - "[桉木分享]T3-US2R"
       - "[桉木分享]T3-US3R"
+      - "[桉木分享]-临时-US"
+      - "[桉木分享]-临时-US1"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -192,24 +122,14 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "[桉木分享]T1-US1 NF"
-      - "[桉木分享]T1-US2 NF"
-      - "[桉木分享]T1-US3 NF"
-      - "[桉木分享]V1-US1 NF"
-      - "[桉木分享]V1-US2 NF"
-      - "[桉木分享]V1-US3 NF"
-      - "[桉木分享]T2-US1 NF"
-      - "[桉木分享]T2-US2 NF"
-      - "[桉木分享]T2-US3 NF"
-      - "[桉木分享]V2-US1 NF"
-      - "[桉木分享]V2-US2 NF"
-      - "[桉木分享]V2-US3 NF"
       - "[桉木分享]V3-US1R"
       - "[桉木分享]V3-US2R"
       - "[桉木分享]V3-US3R"
       - "[桉木分享]T3-US1R"
       - "[桉木分享]T3-US2R"
       - "[桉木分享]T3-US3R"
+      - "[桉木分享]-临时-US"
+      - "[桉木分享]-临时-US1"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
