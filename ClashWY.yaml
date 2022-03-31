@@ -14,10 +14,10 @@ dns:
 proxies:
   - name: 【桉木分享】解锁网易云音乐
     type: ss
-    server: 116.62.110.149
+    server: 114.116.100.242
     port: 55
     cipher: aes-128-gcm
-    password: Anmuwy
+    password: Anmuhi
  
 proxy-groups:
   - name: Netease Music
