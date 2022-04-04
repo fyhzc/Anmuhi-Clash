@@ -5,6 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 2022.04.04, server: u3.anmu.one, port: 55205, type: ss, cipher: aes-256-gcm, password: rrUJH4tKKx, udp: true}
   - {name: "[桉木分享]VI-I-NF", server: u3.anmu.one, port: 31951, type: vmess, uuid: b7cf6889-e6e4-4fb2-ccf1-34a6035c4e67, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
   - {name: "[桉木分享]VI-II-NF", server: u3.anmu.one, port: 27533, type: vmess, uuid: a8419fdf-688f-479f-b6b3-a31eb759b011, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
   - {name: "[桉木分享]VI-III-NF", server: u3.anmu.one, port: 54212, type: vmess, uuid: 386538ac-f530-4bd7-92e3-e885ec226a2b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
@@ -25,6 +26,7 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 2022.04.04
       - "[桉木分享]VI-I-NF"
       - "[桉木分享]VI-II-NF"
       - "[桉木分享]VI-III-NF"
@@ -45,6 +47,7 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 2022.04.04
       - "[桉木分享]VI-I-NF"
       - "[桉木分享]VI-II-NF"
       - "[桉木分享]VI-III-NF"
@@ -77,6 +80,7 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 2022.04.04
       - "[桉木分享]VI-I-NF"
       - "[桉木分享]VI-II-NF"
       - "[桉木分享]VI-III-NF"
@@ -102,6 +106,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 2022.04.04
       - "[桉木分享]VI-I-NF"
       - "[桉木分享]VI-II-NF"
       - "[桉木分享]VI-III-NF"
@@ -122,6 +127,7 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 2022.04.04
       - "[桉木分享]VI-I-NF"
       - "[桉木分享]VI-II-NF"
       - "[桉木分享]VI-III-NF"
@@ -142,6 +148,7 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 2022.04.04
       - "[桉木分享]VI-I-NF"
       - "[桉木分享]VI-II-NF"
       - "[桉木分享]VI-III-NF"
@@ -171,6 +178,7 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 2022.04.04
       - "[桉木分享]VI-I-NF"
       - "[桉木分享]VI-II-NF"
       - "[桉木分享]VI-III-NF"
