@@ -5,73 +5,61 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 2022.03.27, server: u5.anmu.one, port: 53691, type: vmess, uuid: dce871ca-290f-466f-b92a-8364c84f711a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]T1-US1 NF", server: u5.anmu.one, port: 56869, type: trojan, password: E7tbvavtx1, sni: u5.anmu.one, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]T1-US2 NF", server: u5.anmu.one, port: 27882, type: trojan, password: ByqEzfDK5m, sni: u5.anmu.one, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]T1-US3 NF", server: u5.anmu.one, port: 13514, type: trojan, password: 1cUqNyFPMv, sni: u5.anmu.one, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]V1-US1 NF", server: u5.anmu.one, port: 57843, type: vmess, uuid: d89906bb-6670-459c-f310-39ddbe6d6f49, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]V1-US2 NF", server: "u5.anmu.one:", port: 23629, type: vmess, uuid: 18bac570-7668-43a9-d11b-9959f6329036, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]V1-US3 NF", server: u5.anmu.one, port: 17426, type: vmess, uuid: e7b4d0e2-ae9c-4c3e-a933-67da7ad829b8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]T2-US1 NF", server: ccus1y2t2.anmu.one, port: 25414, type: trojan, password: BkgjEmCgVy, sni: ccus1y2t2.anmu.one, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]T2-US2 NF", server: ccus1y2t2.anmu.one, port: 33350, type: trojan, password: jELfAtEgDs, sni: ccus1y2t2.anmu.one, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]T2-US3 NF", server: ccus1y2t2.anmu.one, port: 43831, type: trojan, password: mKYmKNd0G9, sni: ccus1y2t2.anmu.one, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]V2-US1 NF", server: ccus1y2t2.anmu.one, port: 53505, type: vmess, uuid: 261bd011-ea83-442e-bb7e-41ea89369195, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]V2-US2 NF", server: ccus1y2t2.anmu.one, port: 52903, type: vmess, uuid: 46342078-b809-4b57-fb1a-336329e693be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]V2-US3 NF", server: ccus1y2t2.anmu.one, port: 37953, type: vmess, uuid: 99034aec-73d1-4886-dcd7-79e02081acb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]V3-US1R", server: u3.anmu.one, port: 27092, type: vmess, uuid: ce019197-4b04-448c-d3e0-feb1a116d1fa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]V3-US2R", server: u3.anmu.one, port: 14462, type: vmess, uuid: 1f3419a0-d19a-408e-9424-92b8037aa616, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]V3-US3R", server: u3.anmu.one, port: 33972, type: vmess, uuid: 16b938c4-1db3-494c-e5c0-c4b56b3e0394, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]T3-US1R", server: u3.anmu.one, port: 22819, type: trojan, password: 1WSP7G6vyi, sni: u3.anmu.one, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]T3-US2R", server: u3.anmu.one, port: 55584, type: trojan, password: 6oehPaqLw9, sni: u3.anmu.one, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]T3-US3R", server: u3.anmu.one, port: 33817, type: trojan, password: XcxlM5xYgJ, sni: u3.anmu.one, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]VI-I-NF", server: u3.anmu.one, port: 31951, type: vmess, uuid: b7cf6889-e6e4-4fb2-ccf1-34a6035c4e67, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]VI-II-NF", server: u3.anmu.one, port: 27533, type: vmess, uuid: a8419fdf-688f-479f-b6b3-a31eb759b011, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]VI-III-NF", server: u3.anmu.one, port: 54212, type: vmess, uuid: 386538ac-f530-4bd7-92e3-e885ec226a2b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]TI-I-NF", server: u3.anmu.one, port: 49893, type: trojan, password: 4TMwS1XZG3, sni: u3.anmu.one, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]TI-I-NF 2", server: u3.anmu.one, port: 44372, type: trojan, password: CgtjytjL2Q, sni: u3.anmu.one, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]VII-I-NF", server: ccus1y2t2.anmu.one, port: 35933, type: vmess, uuid: 33240b53-d7f7-49e6-a1fc-3ea04754fe48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]VII-II-NF", server: ccus1y2t2.anmu.one, port: 14341, type: vmess, uuid: 5a8d0f46-51ad-45da-fc60-c32640b5774f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]VII-III-NF", server: ccus1y2t2.anmu.one, port: 56525, type: vmess, uuid: 16a0f1f9-074b-4d3e-e0d9-7fa24b3fcde8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]TII-I-NF", server: ccus1y2t2.anmu.one, port: 58173, type: trojan, password: wqD3HiwLCW, sni: ccus1y2t2.anmu.one, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]TII-II-NF", server: ccus1y2t2.anmu.one, port: 59611, type: trojan, password: XYXceu8yh9, sni: ccus1y2t2.anmu.one, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]VIII-I-NF", server: u5.anmu.one, port: 47099, type: vmess, uuid: b68759e7-ed36-4fdb-f9f3-024174cf290d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]VIII-II-NF", server: u5.anmu.one, port: 25649, type: vmess, uuid: 4d8c5010-9140-4362-c064-0b1f00699e54, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]VIII-III-NF", server: u5.anmu.one, port: 38801, type: vmess, uuid: b2a32a0e-1307-4210-aea7-4abe80e01d9c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]TIII-I-NF", server: u5.anmu.one, port: 22964, type: vmess, uuid: a3454d8d-f06f-4ac1-e353-fcb197beabe8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]TIII-II-NF", server: u5.anmu.one, port: 35722, type: trojan, password: xXv8HTmyQC, sni: u5.anmu.one, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - 🎯 全球直连
-      - 2022.03.27
-      - "[桉木分享]T1-US1 NF"
-      - "[桉木分享]T1-US2 NF"
-      - "[桉木分享]T1-US3 NF"
-      - "[桉木分享]V1-US1 NF"
-      - "[桉木分享]V1-US2 NF"
-      - "[桉木分享]V1-US3 NF"
-      - "[桉木分享]T2-US1 NF"
-      - "[桉木分享]T2-US2 NF"
-      - "[桉木分享]T2-US3 NF"
-      - "[桉木分享]V2-US1 NF"
-      - "[桉木分享]V2-US2 NF"
-      - "[桉木分享]V2-US3 NF"
-      - "[桉木分享]V3-US1R"
-      - "[桉木分享]V3-US2R"
-      - "[桉木分享]V3-US3R"
-      - "[桉木分享]T3-US1R"
-      - "[桉木分享]T3-US2R"
-      - "[桉木分享]T3-US3R"
+      - "[桉木分享]VI-I-NF"
+      - "[桉木分享]VI-II-NF"
+      - "[桉木分享]VI-III-NF"
+      - "[桉木分享]TI-I-NF"
+      - "[桉木分享]TI-I-NF 2"
+      - "[桉木分享]VII-I-NF"
+      - "[桉木分享]VII-II-NF"
+      - "[桉木分享]VII-III-NF"
+      - "[桉木分享]TII-I-NF"
+      - "[桉木分享]TII-II-NF"
+      - "[桉木分享]VIII-I-NF"
+      - "[桉木分享]VIII-II-NF"
+      - "[桉木分享]VIII-III-NF"
+      - "[桉木分享]TIII-I-NF"
+      - "[桉木分享]TIII-II-NF"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 2022.03.27
-      - "[桉木分享]T1-US1 NF"
-      - "[桉木分享]T1-US2 NF"
-      - "[桉木分享]T1-US3 NF"
-      - "[桉木分享]V1-US1 NF"
-      - "[桉木分享]V1-US2 NF"
-      - "[桉木分享]V1-US3 NF"
-      - "[桉木分享]T2-US1 NF"
-      - "[桉木分享]T2-US2 NF"
-      - "[桉木分享]T2-US3 NF"
-      - "[桉木分享]V2-US1 NF"
-      - "[桉木分享]V2-US2 NF"
-      - "[桉木分享]V2-US3 NF"
-      - "[桉木分享]V3-US1R"
-      - "[桉木分享]V3-US2R"
-      - "[桉木分享]V3-US3R"
-      - "[桉木分享]T3-US1R"
-      - "[桉木分享]T3-US2R"
-      - "[桉木分享]T3-US3R"
+      - "[桉木分享]VI-I-NF"
+      - "[桉木分享]VI-II-NF"
+      - "[桉木分享]VI-III-NF"
+      - "[桉木分享]TI-I-NF"
+      - "[桉木分享]TI-I-NF 2"
+      - "[桉木分享]VII-I-NF"
+      - "[桉木分享]VII-II-NF"
+      - "[桉木分享]VII-III-NF"
+      - "[桉木分享]TII-I-NF"
+      - "[桉木分享]TII-II-NF"
+      - "[桉木分享]VIII-I-NF"
+      - "[桉木分享]VIII-II-NF"
+      - "[桉木分享]VIII-III-NF"
+      - "[桉木分享]TIII-I-NF"
+      - "[桉木分享]TIII-II-NF"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -89,25 +77,21 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 2022.03.27
-      - "[桉木分享]T1-US1 NF"
-      - "[桉木分享]T1-US2 NF"
-      - "[桉木分享]T1-US3 NF"
-      - "[桉木分享]V1-US1 NF"
-      - "[桉木分享]V1-US2 NF"
-      - "[桉木分享]V1-US3 NF"
-      - "[桉木分享]T2-US1 NF"
-      - "[桉木分享]T2-US2 NF"
-      - "[桉木分享]T2-US3 NF"
-      - "[桉木分享]V2-US1 NF"
-      - "[桉木分享]V2-US2 NF"
-      - "[桉木分享]V2-US3 NF"
-      - "[桉木分享]V3-US1R"
-      - "[桉木分享]V3-US2R"
-      - "[桉木分享]V3-US3R"
-      - "[桉木分享]T3-US1R"
-      - "[桉木分享]T3-US2R"
-      - "[桉木分享]T3-US3R"
+      - "[桉木分享]VI-I-NF"
+      - "[桉木分享]VI-II-NF"
+      - "[桉木分享]VI-III-NF"
+      - "[桉木分享]TI-I-NF"
+      - "[桉木分享]TI-I-NF 2"
+      - "[桉木分享]VII-I-NF"
+      - "[桉木分享]VII-II-NF"
+      - "[桉木分享]VII-III-NF"
+      - "[桉木分享]TII-I-NF"
+      - "[桉木分享]TII-II-NF"
+      - "[桉木分享]VIII-I-NF"
+      - "[桉木分享]VIII-II-NF"
+      - "[桉木分享]VIII-III-NF"
+      - "[桉木分享]TIII-I-NF"
+      - "[桉木分享]TIII-II-NF"
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -118,73 +102,61 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 2022.03.27
-      - "[桉木分享]T1-US1 NF"
-      - "[桉木分享]T1-US2 NF"
-      - "[桉木分享]T1-US3 NF"
-      - "[桉木分享]V1-US1 NF"
-      - "[桉木分享]V1-US2 NF"
-      - "[桉木分享]V1-US3 NF"
-      - "[桉木分享]T2-US1 NF"
-      - "[桉木分享]T2-US2 NF"
-      - "[桉木分享]T2-US3 NF"
-      - "[桉木分享]V2-US1 NF"
-      - "[桉木分享]V2-US2 NF"
-      - "[桉木分享]V2-US3 NF"
-      - "[桉木分享]V3-US1R"
-      - "[桉木分享]V3-US2R"
-      - "[桉木分享]V3-US3R"
-      - "[桉木分享]T3-US1R"
-      - "[桉木分享]T3-US2R"
-      - "[桉木分享]T3-US3R"
+      - "[桉木分享]VI-I-NF"
+      - "[桉木分享]VI-II-NF"
+      - "[桉木分享]VI-III-NF"
+      - "[桉木分享]TI-I-NF"
+      - "[桉木分享]TI-I-NF 2"
+      - "[桉木分享]VII-I-NF"
+      - "[桉木分享]VII-II-NF"
+      - "[桉木分享]VII-III-NF"
+      - "[桉木分享]TII-I-NF"
+      - "[桉木分享]TII-II-NF"
+      - "[桉木分享]VIII-I-NF"
+      - "[桉木分享]VIII-II-NF"
+      - "[桉木分享]VIII-III-NF"
+      - "[桉木分享]TIII-I-NF"
+      - "[桉木分享]TIII-II-NF"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 2022.03.27
-      - "[桉木分享]T1-US1 NF"
-      - "[桉木分享]T1-US2 NF"
-      - "[桉木分享]T1-US3 NF"
-      - "[桉木分享]V1-US1 NF"
-      - "[桉木分享]V1-US2 NF"
-      - "[桉木分享]V1-US3 NF"
-      - "[桉木分享]T2-US1 NF"
-      - "[桉木分享]T2-US2 NF"
-      - "[桉木分享]T2-US3 NF"
-      - "[桉木分享]V2-US1 NF"
-      - "[桉木分享]V2-US2 NF"
-      - "[桉木分享]V2-US3 NF"
-      - "[桉木分享]V3-US1R"
-      - "[桉木分享]V3-US2R"
-      - "[桉木分享]V3-US3R"
-      - "[桉木分享]T3-US1R"
-      - "[桉木分享]T3-US2R"
-      - "[桉木分享]T3-US3R"
+      - "[桉木分享]VI-I-NF"
+      - "[桉木分享]VI-II-NF"
+      - "[桉木分享]VI-III-NF"
+      - "[桉木分享]TI-I-NF"
+      - "[桉木分享]TI-I-NF 2"
+      - "[桉木分享]VII-I-NF"
+      - "[桉木分享]VII-II-NF"
+      - "[桉木分享]VII-III-NF"
+      - "[桉木分享]TII-I-NF"
+      - "[桉木分享]TII-II-NF"
+      - "[桉木分享]VIII-I-NF"
+      - "[桉木分享]VIII-II-NF"
+      - "[桉木分享]VIII-III-NF"
+      - "[桉木分享]TIII-I-NF"
+      - "[桉木分享]TIII-II-NF"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 2022.03.27
-      - "[桉木分享]T1-US1 NF"
-      - "[桉木分享]T1-US2 NF"
-      - "[桉木分享]T1-US3 NF"
-      - "[桉木分享]V1-US1 NF"
-      - "[桉木分享]V1-US2 NF"
-      - "[桉木分享]V1-US3 NF"
-      - "[桉木分享]T2-US1 NF"
-      - "[桉木分享]T2-US2 NF"
-      - "[桉木分享]T2-US3 NF"
-      - "[桉木分享]V2-US1 NF"
-      - "[桉木分享]V2-US2 NF"
-      - "[桉木分享]V2-US3 NF"
-      - "[桉木分享]V3-US1R"
-      - "[桉木分享]V3-US2R"
-      - "[桉木分享]V3-US3R"
-      - "[桉木分享]T3-US1R"
-      - "[桉木分享]T3-US2R"
-      - "[桉木分享]T3-US3R"
+      - "[桉木分享]VI-I-NF"
+      - "[桉木分享]VI-II-NF"
+      - "[桉木分享]VI-III-NF"
+      - "[桉木分享]TI-I-NF"
+      - "[桉木分享]TI-I-NF 2"
+      - "[桉木分享]VII-I-NF"
+      - "[桉木分享]VII-II-NF"
+      - "[桉木分享]VII-III-NF"
+      - "[桉木分享]TII-I-NF"
+      - "[桉木分享]TII-II-NF"
+      - "[桉木分享]VIII-I-NF"
+      - "[桉木分享]VIII-II-NF"
+      - "[桉木分享]VIII-III-NF"
+      - "[桉木分享]TIII-I-NF"
+      - "[桉木分享]TIII-II-NF"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -199,25 +171,21 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 2022.03.27
-      - "[桉木分享]T1-US1 NF"
-      - "[桉木分享]T1-US2 NF"
-      - "[桉木分享]T1-US3 NF"
-      - "[桉木分享]V1-US1 NF"
-      - "[桉木分享]V1-US2 NF"
-      - "[桉木分享]V1-US3 NF"
-      - "[桉木分享]T2-US1 NF"
-      - "[桉木分享]T2-US2 NF"
-      - "[桉木分享]T2-US3 NF"
-      - "[桉木分享]V2-US1 NF"
-      - "[桉木分享]V2-US2 NF"
-      - "[桉木分享]V2-US3 NF"
-      - "[桉木分享]V3-US1R"
-      - "[桉木分享]V3-US2R"
-      - "[桉木分享]V3-US3R"
-      - "[桉木分享]T3-US1R"
-      - "[桉木分享]T3-US2R"
-      - "[桉木分享]T3-US3R"
+      - "[桉木分享]VI-I-NF"
+      - "[桉木分享]VI-II-NF"
+      - "[桉木分享]VI-III-NF"
+      - "[桉木分享]TI-I-NF"
+      - "[桉木分享]TI-I-NF 2"
+      - "[桉木分享]VII-I-NF"
+      - "[桉木分享]VII-II-NF"
+      - "[桉木分享]VII-III-NF"
+      - "[桉木分享]TII-I-NF"
+      - "[桉木分享]TII-II-NF"
+      - "[桉木分享]VIII-I-NF"
+      - "[桉木分享]VIII-II-NF"
+      - "[桉木分享]VIII-III-NF"
+      - "[桉木分享]TIII-I-NF"
+      - "[桉木分享]TIII-II-NF"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
