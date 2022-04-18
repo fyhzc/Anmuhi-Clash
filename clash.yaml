@@ -5,25 +5,27 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "[桉木分享]2022.04.13", server: u3.anmu.one, port: 12743, type: vmess, uuid: 2a8a7669-c7c5-4716-face-44c653acc7cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]-1", server: u3.anmu.one, port: 28114, type: vmess, uuid: ce7d99ae-def6-4acb-e54f-bfc8f48a94ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]-2", server: u3.anmu.one, port: 11203, type: vmess, uuid: e738e28f-7ea7-4b85-ac20-934f75db94bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]-3", server: u3.anmu.one, port: 15572, type: vmess, uuid: 726156d9-4b9f-4643-f663-7f1237892bb5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]-4", server: u5.anmu.one, port: 13209, type: vmess, uuid: 8170e8f8-cba4-42ad-b3bc-04f10fd254c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]-5", server: u5.anmu.one, port: 23146, type: vmess, uuid: 2f543506-4415-4edb-e374-3eadd0444efd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]-6", server: u5.anmu.one, port: 53532, type: vmess, uuid: b39c6188-43b1-4a8c-ca01-19a0f9ae769a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]-7", server: cc1m166.anmu.one, port: 15647, type: vmess, uuid: 07911d6e-7b42-49e3-deb0-a5d02cc63410, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]-8", server: cc1m166.anmu.one, port: 21964, type: vmess, uuid: ffb7e8c8-0e7c-4847-8d65-0676cdee0ece, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]-9", server: cc1m166.anmu.one, port: 19649, type: vmess, uuid: ce6c6f4b-1d73-4232-82fb-c165124d8d4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]-10", server: ccus1y2t.anmu.one, port: 19694, type: vmess, uuid: 286e742e-c2c3-4a36-b582-8b9c9cef566b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]-11", server: ccus1y2t.anmu.one, port: 26449, type: vmess, uuid: 46fda2a5-9460-4faa-8d6f-32c3d4255493, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "[桉木分享]-12", server: ccus1y2t.anmu.one, port: 17946, type: vmess, uuid: 26a723e0-bd26-49bd-80f0-e1fff174732c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]2022.04.18", server: u1.anmu.one, port: 50891, type: vmess, uuid: aa9e723e-5fd5-483f-f24d-0ee32780dfd9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]-1", server: u1.anmu.one, port: 59113, type: vmess, uuid: be4ca65a-678b-4ee1-b9a1-142662ee3e3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]-2", server: u1.anmu.one, port: 52409, type: vmess, uuid: 17b5cae4-f7ee-4d6a-9986-af4c9e076d15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]-3", server: u1.anmu.one, port: 17235, type: vmess, uuid: 71155edf-4ba8-486f-d904-336f1f12a6cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]-4", server: u2.anmu.one, port: 18182, type: vmess, uuid: 94907fa7-91ec-4671-bb2a-e69acf1cba08, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]-5", server: u2.anmu.one, port: 49253, type: vmess, uuid: 919ac815-1776-47fe-8b54-508ef4f39421, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]-6", server: u2.anmu.one, port: 52756, type: vmess, uuid: 32b306e1-d5b1-4913-d8d3-56ac23637de7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]-7", server: u3.anmu.one, port: 16225, type: vmess, uuid: ce7d99ae-def6-4acb-e54f-bfc8f48a94ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]-8", server: u3.anmu.one, port: 26297, type: vmess, uuid: e738e28f-7ea7-4b85-ac20-934f75db94bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]-9", server: u3.anmu.one, port: 15566, type: vmess, uuid: 726156d9-4b9f-4643-f663-7f1237892bb5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]-10", server: u4.anmu.one, port: 59756, type: vmess, uuid: 07ec59da-18ad-4224-8ad9-c5a66b1447a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]-11", server: u4.anmu.one, port: 25662, type: vmess, uuid: 8228550e-7f53-4809-8cb1-5f9420380d13, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]-12", server: u4.anmu.one, port: 10205, type: vmess, uuid: da66ae90-2013-4e8f-92c5-2720243188dd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]-13", server: u5.anmu.one, port: 13215, type: vmess, uuid: 8170e8f8-cba4-42ad-b3bc-04f10fd254c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "[桉木分享]-14", server: u5.anmu.one, port: 23122, type: vmess, uuid: 2f543506-4415-4edb-e374-3eadd0444efd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - 🎯 全球直连
-      - "[桉木分享]2022.04.13"
+      - "[桉木分享]2022.04.18"
       - "[桉木分享]-1"
       - "[桉木分享]-2"
       - "[桉木分享]-3"
@@ -36,12 +38,14 @@ proxy-groups:
       - "[桉木分享]-10"
       - "[桉木分享]-11"
       - "[桉木分享]-12"
+      - "[桉木分享]-13"
+      - "[桉木分享]-14"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "[桉木分享]2022.04.13"
+      - "[桉木分享]2022.04.18"
       - "[桉木分享]-1"
       - "[桉木分享]-2"
       - "[桉木分享]-3"
@@ -54,6 +58,8 @@ proxy-groups:
       - "[桉木分享]-10"
       - "[桉木分享]-11"
       - "[桉木分享]-12"
+      - "[桉木分享]-13"
+      - "[桉木分享]-14"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -71,7 +77,7 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "[桉木分享]2022.04.13"
+      - "[桉木分享]2022.04.18"
       - "[桉木分享]-1"
       - "[桉木分享]-2"
       - "[桉木分享]-3"
@@ -84,6 +90,8 @@ proxy-groups:
       - "[桉木分享]-10"
       - "[桉木分享]-11"
       - "[桉木分享]-12"
+      - "[桉木分享]-13"
+      - "[桉木分享]-14"
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -94,7 +102,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "[桉木分享]2022.04.13"
+      - "[桉木分享]2022.04.18"
       - "[桉木分享]-1"
       - "[桉木分享]-2"
       - "[桉木分享]-3"
@@ -107,12 +115,14 @@ proxy-groups:
       - "[桉木分享]-10"
       - "[桉木分享]-11"
       - "[桉木分享]-12"
+      - "[桉木分享]-13"
+      - "[桉木分享]-14"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "[桉木分享]2022.04.13"
+      - "[桉木分享]2022.04.18"
       - "[桉木分享]-1"
       - "[桉木分享]-2"
       - "[桉木分享]-3"
@@ -125,12 +135,14 @@ proxy-groups:
       - "[桉木分享]-10"
       - "[桉木分享]-11"
       - "[桉木分享]-12"
+      - "[桉木分享]-13"
+      - "[桉木分享]-14"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "[桉木分享]2022.04.13"
+      - "[桉木分享]2022.04.18"
       - "[桉木分享]-1"
       - "[桉木分享]-2"
       - "[桉木分享]-3"
@@ -143,6 +155,8 @@ proxy-groups:
       - "[桉木分享]-10"
       - "[桉木分享]-11"
       - "[桉木分享]-12"
+      - "[桉木分享]-13"
+      - "[桉木分享]-14"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -157,7 +171,7 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "[桉木分享]2022.04.13"
+      - "[桉木分享]2022.04.18"
       - "[桉木分享]-1"
       - "[桉木分享]-2"
       - "[桉木分享]-3"
@@ -170,6 +184,8 @@ proxy-groups:
       - "[桉木分享]-10"
       - "[桉木分享]-11"
       - "[桉木分享]-12"
+      - "[桉木分享]-13"
+      - "[桉木分享]-14"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10405,5 +10421,6 @@ rules:
  - DOMAIN-KEYWORD,Thunder,🎯 全球直连
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - DOMAIN-SUFFIX,ftt.me,🎯 全球直连
+ - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
